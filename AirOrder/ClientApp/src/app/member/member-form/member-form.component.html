@@ -1,0 +1,21 @@
+<form novalidate [formGroup]="memberform" (submit)="onSubmit()">
+  <input type="hidden" name="id" value="service.formData.id" />
+  <div class="form-row">
+    <div class="form-group col-md-3">
+      <label>First Name</label>
+      <input class="form-control form-control-lg" placeholder="First Name" name="firstName"  formControlName="FirstName" />
+    </div>
+    <div class="form-group col-md-3">
+      <label>Last Name</label>
+      <input class="form-control form-control-lg" placeholder="Last Name" name="lastName" formControlName="LastName"  />
+    </div>
+    <div class="form-group col-md-3">
+      <label>Middle Name</label>
+      <input class="form-control form-control-lg" placeholder="Middle Name" name="middleName" formControlName="MiddleName" />
+    </div>
+    <div class="form-group">
+      <label>``</label>
+      <button class="btn btn-primary btn-lg btn-block" type="submit" >Submit</button>
+    </div>
+  </div>
+</form>
