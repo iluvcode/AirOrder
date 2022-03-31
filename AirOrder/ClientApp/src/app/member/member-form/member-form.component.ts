@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MembersService } from '../../shared/member.service';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Member } from '../../shared/member.model';
+import { InputTextModule } from 'primeng/inputtext';
 @Component({
   selector: 'app-member-form',
   templateUrl: './member-form.component.html',
