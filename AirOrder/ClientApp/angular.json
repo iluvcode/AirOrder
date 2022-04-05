@@ -31,8 +31,8 @@
               "node_modules/primeng/resources/primeng.min.css",
               //"node_modules/primeng/resources/themes/nova-alt/theme.css",
               "node_modules/primeicons/primeicons.css",
-              "src/assets/theme/blue/theme-blue-light.css",
-              "src/assets/layout/css/blue/layout-blue-light.css",
+              "src/assets/theme/blue/theme-light.css",
+              "src/assets/layout/css/layout-blue.css",
               "src/styles.css"
             ],
             "scripts": []
